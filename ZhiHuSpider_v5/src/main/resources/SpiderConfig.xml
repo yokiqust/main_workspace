@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spider class="seeds" stepby="15">
+	<thread>
+		20
+	</thread>
+	<Seeds>
+		<topic-id> 19553128 </topic-id>
+		<topic-id> 19552706</topic-id>
+		<topic-id> 19552192</topic-id>
+		<topic-id> 19776749 </topic-id>
+		<topic-id>19551137</topic-id>
+		<question-id> 37018823 </question-id>
+	</Seeds>
+	<if>
+		<question-condition>
+			<more>50</more>
+			<max>1000</max>
+		</question-condition>
+		<answer-condition>
+			<more>1000</more>
+		</answer-condition>
+	</if>
+</Spider>

@@ -1,0 +1,27 @@
+# HTTP Cookie File for domains related to zhihu.com.
+# Downloaded with cookies.txt Chrome Extension (https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
+# Example:  wget -x --load-cookies cookies.txt https://www.zhihu.com/
+#
+.zhihu.com	TRUE	/question	FALSE	1524135751	_zap	52cda8f3-3c55-4be7-8a8d-abba5c5f7450
+.zhihu.com	TRUE	/	FALSE	1555673988	d_c0	&quot;AJDAJRmoywmPThKpgbzbLXvR3ZKotdyF-qM=|1461065988&quot;
+.zhihu.com	TRUE	/	FALSE	1524137988	_zap	ab0fd463-24f5-467c-a187-4d16323ad6b9
+www.zhihu.com	FALSE	/	FALSE	1524137988	_za	75493afe-58cf-4550-ac3c-4dcccbf93bc7
+.duanzhihu.com	TRUE	/	FALSE	1493176418	Hm_lvt_fe94799350cc1355f1b147e6ff91dcbe	1461640419
+.duanzhihu.com	TRUE	/	FALSE	1524712419	_ga	GA1.2.1992981180.1461640419
+www.zhihu.com	FALSE	/	FALSE	1466250919	_xsrf	e045c4a9b08ee5b78102a14a278d52d8
+zhuanlan.zhihu.com	FALSE	/	FALSE	1467004065	_xsrf	2|cd51dc4c|a8f2633f26d52866edef8c8cb3dead98|1464412064
+m.zhihu.com	FALSE	/	FALSE	1467936451	_xsrf	1d2b69ec1d7a25d5943ddd247e1e324d
+m.zhihu.com	FALSE	/	FALSE	1528416450	_za	f9164494-b9b4-4037-a840-52abbd5adb21
+zhuanlan.zhihu.com	FALSE	/	FALSE	1468498201	XSRF-TOKEN	2|06eeb13d|634d0e4eed6a45172650e1fd7861c0e9|1464412064
+.zhihu.com	TRUE	/	FALSE	1560657936	q_c1	ed8c2ae6d9724a8f989754fcb263e3bf|1466049932000|1463400410000
+.zhihu.com	TRUE	/	FALSE	1468644543	l_cap_id	&quot;MDg0ZWE4MzQwY2Q0NGNjODhmNDU1MWM4ZDQxM2U4OTc=|1466052539|bb02801f464759f5dce62a8bcd4c4d19317e0a5a&quot;
+.zhihu.com	TRUE	/	FALSE	1468644543	cap_id	&quot;NzNmYWM4NmJlNmE3NGNkOGIyMzc3MTkxNzUyMDNkNzU=|1466052539|1fe5f97c771047348cf66bb98360f1065ce1c22e&quot;
+.zhihu.com	TRUE	/	FALSE	1468644587	login	&quot;MWNjNmZkMWQ4Y2U2NDdiNmFjYmIwNTViZjBlMzhkMGM=|1466052584|aebe3c5788c06bd62efca1cc24800b96ede0b0bb&quot;
+.zhihu.com	TRUE	/	FALSE	1468644587	z_c0	Mi4wQUJES2VuV0NMZ2tBa01BbEdhakxDUmNBQUFCaEFsVk42THlKVndDSDFFdEYxMEg0VXgxUUE3QWN1VEM0QUMzVXNn|1466052584|8518c270014d29aba9742ca8b73abd2a94ea5f59
+.zhihu.com	TRUE	/	FALSE	1466067044	__utmt	1
+.zhihu.com	TRUE	/	TRUE	1468644584	a_t	&quot;2.0ABDKenWCLgkXAAAAkPSJVwAQynp1gi4JAJDAJRmoywkXAAAAYQJVTei8iVcAh9RLRddB-FMdUAOwHLkwuAAt1LKQ-bpBvf-TbDfvYEJkP42x6AK-SQ==&quot;
+.zhihu.com	TRUE	/	FALSE	1529138835	__utma	51854390.597605355.1465999287.1466062791.1466064894.5
+.zhihu.com	TRUE	/	FALSE	1466068635	__utmb	51854390.52.9.1466065077766
+.zhihu.com	TRUE	/	FALSE	0	__utmc	51854390
+.zhihu.com	TRUE	/	FALSE	1481834835	__utmz	51854390.1465999287.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+.zhihu.com	TRUE	/	FALSE	1529138835	__utmv	51854390.100-1|2=registration_date=20151219=1^3=entry_date=20151219=1

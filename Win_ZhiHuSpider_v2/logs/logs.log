@@ -1,0 +1,13 @@
+2016-06-11 13:18:17 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2cfb4a64: startup date [Sat Jun 11 13:18:17 CST 2016]; root of context hierarchy
+  2016-06-11 13:18:17 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/Beans.xml]
+  2016-06-11 13:18:18 DriverManagerDataSource.java INFO Loaded JDBC driver: com.mysql.jdbc.Driver
+  2016-06-11 13:18:18 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@78e94dcf: startup date [Sat Jun 11 13:18:18 CST 2016]; root of context hierarchy
+  2016-06-11 13:18:18 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/Beans.xml]
+  2016-06-11 13:18:18 DriverManagerDataSource.java INFO Loaded JDBC driver: com.mysql.jdbc.Driver
+  2016-06-11 16:58:11 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@326de728: startup date [Sat Jun 11 16:58:11 CST 2016]; root of context hierarchy
+  2016-06-11 16:58:12 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/Beans.xml]
+  2016-06-11 16:58:13 DriverManagerDataSource.java INFO Loaded JDBC driver: com.mysql.jdbc.Driver
+  2016-06-11 16:58:13 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5db250b4: startup date [Sat Jun 11 16:58:13 CST 2016]; root of context hierarchy
+  2016-06-11 16:58:13 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/Beans.xml]
+  2016-06-11 16:58:13 DriverManagerDataSource.java INFO Loaded JDBC driver: com.mysql.jdbc.Driver
+  
