@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1457945596844_1" label="webmagic-parent" name="webmagic-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webmagic-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webmagic-extension" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webmagic-core" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1456815784423_0" label="Window Working Set" name="Aggregate for window 1456815784422"/>
+</workingSetManager>

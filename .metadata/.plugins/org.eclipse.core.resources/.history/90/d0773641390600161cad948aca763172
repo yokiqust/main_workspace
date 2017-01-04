@@ -1,0 +1,62 @@
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import javax.imageio.ImageReader;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.HttpWebConnection;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlElement;
+import com.gargoylesoftware.htmlunit.html.HtmlImage;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.HtmlSubmitInput;
+
+public class Test {
+	public static void main(String[] args) throws FailingHttpStatusCodeException, MalformedURLException, IOException {
+		try {
+			WebClient client = new WebClient(BrowserVersion.CHROME);
+			client.getOptions().setJavaScriptEnabled(false);
+			HttpWebConnection httpwebconnection = new HttpWebConnection(client);
+			client.setWebConnection(httpwebconnection);
+			java.net.URL url = new java.net.URL("http://tongji.baidu.com");
+			HtmlPage page = client.getPage(url);
+			HtmlElement username = (HtmlElement) page.getElementById("UserName");
+			HtmlElement password = (HtmlElement) page.getElementById("Password");
+			HtmlElement valiCode = (HtmlElement) page.getElementById("Valicode");
+			HtmlImage valiCodeImg = (HtmlImage) page.getElementById("cas_code");
+			ImageReader imageReader = valiCodeImg.getImageReader();
+			BufferedImage bufferedImage = imageReader.read(0);
+
+			JFrame f2 = new JFrame();
+			JLabel l = new JLabel();
+			l.setIcon(new ImageIcon(bufferedImage));
+			f2.getContentPane().add(l);
+			f2.setSize(100, 100);
+			f2.setTitle("验证码");
+			f2.setVisible(true);
+
+			String valicodeStr = JOptionPane.showInputDialog("请输入验证码：");
+			f2.setVisible(false);
+			HtmlElement submit = (HtmlElement) page.getElementById("Submit");
+			HtmlSubmitInput submit2 = (HtmlSubmitInput) submit;
+			username.click();
+			username.type("gabazi");
+			password.click();
+			password.type("******");
+			valiCode.click();
+			valiCode.type(valicodeStr);
+
+			HtmlPage resultPage = submit2.click();
+			System.out.println(resultPage.asText());
+			System.exit(0);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

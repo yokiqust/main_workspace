@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spider class="update" stepby="10">
+	<thread>
+		20
+	</thread>
+	<Seeds>
+		<topic-id>19776749,49000</topic-id>
+		<!-- <topic-id>19776749,49000</topic-id><topic-id>20011035,500</topic-id> 
+			<question-id> 37018823 </question-id> <question-id>39435342</question-id> -->
+	</Seeds>
+	<!-- 抓取条件 -->
+	<if>
+		<question-condition>
+			<more>50</more>
+			<max>1000</max>
+		</question-condition>
+		<answer-condition>
+			<more>1000</more>
+		</answer-condition>
+	</if>
+</Spider>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Copy of ZhiHuSpider_v4/Copy of ZhiHuSpider_v4.iml" filepath="$PROJECT_DIR$/Copy of ZhiHuSpider_v4/Copy of ZhiHuSpider_v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Copy of ZhiHuSpider_v7/Copy of ZhiHuSpider_v7.iml" filepath="$PROJECT_DIR$/Copy of ZhiHuSpider_v7/Copy of ZhiHuSpider_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login/Login.iml" filepath="$PROJECT_DIR$/Login/Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo/SpringDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuanFa/SuanFa.iml" filepath="$PROJECT_DIR$/SuanFa/SuanFa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebMagic/WebMagic.iml" filepath="$PROJECT_DIR$/WebMagic/WebMagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Win_ZhiHuSpider_v2/Win_ZhiHuSpider_v2.iml" filepath="$PROJECT_DIR$/Win_ZhiHuSpider_v2/Win_ZhiHuSpider_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider/ZhiHuSpider.iml" filepath="$PROJECT_DIR$/ZhiHuSpider/ZhiHuSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v2/ZhiHuSpider_v2.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v2/ZhiHuSpider_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v3/ZhiHuSpider_v3.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v3/ZhiHuSpider_v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v4/ZhiHuSpider_v4.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v4/ZhiHuSpider_v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v5/ZhiHuSpider_v5.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v5/ZhiHuSpider_v5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v6/ZhiHuSpider_v6.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v6/ZhiHuSpider_v6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v7/ZhiHuSpider_v7.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v7/ZhiHuSpider_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHuSpider_v8/ZhiHuSpider_v8.iml" filepath="$PROJECT_DIR$/ZhiHuSpider_v8/ZhiHuSpider_v8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaDemo/javaDemo.iml" filepath="$PROJECT_DIR$/javaDemo/javaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcDemo/jdbcDemo.iml" filepath="$PROJECT_DIR$/jdbcDemo/jdbcDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+package cn.yokiqust.io;
+
+public class GetChannel {
+	private static final int BSIZE=1024;
+	public static void main(String[] args) throws Exception{
+		
+	}
+}

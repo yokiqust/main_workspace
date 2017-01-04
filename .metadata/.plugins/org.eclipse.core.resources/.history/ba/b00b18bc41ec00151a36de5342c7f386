@@ -1,0 +1,38 @@
+package cn.yokiqust.HYO;
+
+import java.util.AbstractCollection;
+import java.util.Iterator;
+
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
+
+public class CollectionSequence extends AbstractCollection<Pet> {
+	private Pet[] pets = Pets.createArray(8);
+
+	@Override
+	public Iterator<Pet> iterator() {
+		return new Iterator<Pet>() {
+			private int index = 0;
+
+			@Override
+			public boolean hasNext() {
+				// TODO Auto-generated method stub
+				return index < pets.length;
+			}
+
+			@Override
+			public Pet next() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+		};
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return pets.length;
+	}
+
+}

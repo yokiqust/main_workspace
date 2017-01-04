@@ -1,0 +1,5 @@
+package cn.yokiqust.HYO;
+
+public class ArrayIsNotIterable {
+	
+}

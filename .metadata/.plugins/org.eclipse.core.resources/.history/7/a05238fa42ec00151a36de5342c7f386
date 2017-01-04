@@ -1,0 +1,29 @@
+package cn.yokiqust.HYO;
+
+import java.util.Iterator;
+
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
+
+class PetSequence {
+	protected Pet[] pets = Pets.createArray(8);
+}
+
+public class NonCollectionSequence extends PetSequence {
+	public Iterator<Pet> iterator() {
+		return new Iterator<Pet>() {
+			private int index = 0;
+
+			@Override
+			public Pet next() {
+				return pets[index++];
+			}
+
+			@Override
+			public boolean hasNext() {
+				// TODO Auto-generated method stub
+				return index < pets.length;
+			}
+		};
+	}
+}

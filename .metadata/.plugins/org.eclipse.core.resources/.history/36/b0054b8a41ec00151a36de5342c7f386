@@ -1,0 +1,7 @@
+package cn.yokiqust.HYO;
+
+import java.util.AbstractCollection;
+
+public class CollectionSequence extends AbstractCollection<Pet> {
+
+}

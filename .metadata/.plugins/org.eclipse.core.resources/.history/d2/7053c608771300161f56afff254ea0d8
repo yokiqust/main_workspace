@@ -1,0 +1,12 @@
+package cn.yokiqust.io;
+
+import java.io.FileOutputStream;
+import java.nio.channels.FileChannel;
+
+public class GetChannel {
+	private static final int BSIZE = 1024;
+
+	public static void main(String[] args) throws Exception {
+		FileChannel fc = new FileOutputStream(Const.pre + "data.txt").getChannel();
+	}
+}

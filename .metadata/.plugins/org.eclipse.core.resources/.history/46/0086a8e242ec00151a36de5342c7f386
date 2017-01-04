@@ -1,0 +1,12 @@
+package cn.yokiqust.HYO;
+
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
+
+class PetSequence {
+	protected Pet[] pets = Pets.createArray(8);
+}
+
+public class NonCollectionSequence {
+
+}

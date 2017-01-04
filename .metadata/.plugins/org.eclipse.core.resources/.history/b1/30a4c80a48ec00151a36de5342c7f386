@@ -1,0 +1,9 @@
+package cn.yokiqust.HYO;
+
+import java.util.Random;
+
+public class ModifyingArraysAsList {
+	public static void main(String[] args) {
+		Random rand = new Random(47);
+	}
+}

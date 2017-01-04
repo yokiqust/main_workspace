@@ -1,0 +1,55 @@
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import javax.imageio.ImageReader;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlElement;
+import com.gargoylesoftware.htmlunit.html.HtmlForm;
+import com.gargoylesoftware.htmlunit.html.HtmlImage;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.HtmlPasswordInput;
+import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
+
+public class Test {
+	public static void main(String[] args) throws FailingHttpStatusCodeException, MalformedURLException, IOException {
+		WebClient webClient = new WebClient(BrowserVersion.CHROME);
+		webClient.getOptions().setCssEnabled(false);
+		webClient.getOptions().setJavaScriptEnabled(true);
+		webClient.getOptions().setRedirectEnabled(true);
+		webClient.getOptions().setThrowExceptionOnScriptError(false);
+
+		// 1.获取某个待测页面
+		HtmlPage page = webClient.getPage("http://www.zhihu.com/#signin");
+		// 2.获取页面上的表单
+		HtmlForm form = page.getForms().get(0);
+		// 3.获取页面上的各个元素
+		HtmlTextInput textField = form.getInputByName("account");
+		HtmlPasswordInput pass = form.getInputByName("password");
+		HtmlImage valiCodeImg = (HtmlImage) form.getElementsByAttribute("img", "class", "js-refresh-captcha captcha");
+		ImageReader imageReader = valiCodeImg.getImageReader();
+		BufferedImage bufferedImage = imageReader.read(0);
+		JFrame f2 = new JFrame();
+		JLabel l = new JLabel();
+		l.setIcon(new ImageIcon(bufferedImage));
+		f2.getContentPane().add(l);
+		f2.setSize(100, 100);
+		f2.setTitle("验证码");
+		f2.setVisible(true);
+
+		HtmlElement button = form.getElementsByTagName("button").get(0);
+		// 4.给元素赋值
+		textField.setValueAttribute("843645681@qq.com");
+		pass.setValueAttribute("imsoly6682270");
+		// 5.提交
+		button.click();
+
+		System.out.println(page.asText());
+	}
+}

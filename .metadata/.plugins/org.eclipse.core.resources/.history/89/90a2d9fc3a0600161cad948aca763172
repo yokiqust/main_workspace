@@ -1,0 +1,27 @@
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlForm;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
+
+public class Test {
+	public static void main(String[] args) throws FailingHttpStatusCodeException, MalformedURLException, IOException {
+		WebClient webClient = new WebClient(BrowserVersion.CHROME);
+		webClient.getOptions().setCssEnabled(false);
+		webClient.getOptions().setJavaScriptEnabled(true);
+		webClient.getOptions().setRedirectEnabled(true);
+		webClient.getOptions().setThrowExceptionOnScriptError(false);
+
+		// 1.获取某个待测页面
+		HtmlPage page = webClient.getPage("https://www.zhihu.com/#signin");
+		HtmlForm form = page.getForms().get(0);
+		HtmlTextInput account = form.getElementsByName("account");
+		System.out.println(page.asText());
+		System.out.println(form.getTextContent());
+		webClient.close();
+	}
+}
